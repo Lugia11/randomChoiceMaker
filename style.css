@@ -1,0 +1,73 @@
+body {
+    background-color : #323232;
+}
+h1 {
+   color : rgb(185, 83, 185);
+   font-family : Arial, sans-serif; 
+    text-align : center;
+    margin-top : 24px;
+    font-size : 48px;
+    text-shadow : 2px 2px 4px black, 0 0 50px purple, 0 0 10px darkblue;
+}
+button {
+    display : block;
+    margin : 6px auto;
+    padding : 12px 24px;
+    font-size : 24px;
+    background-color : #403e3e;
+    text-emphasis-color : white;
+    border : 8px groove rgb(185, 83, 185);
+    border-radius : 24px;
+    cursor : pointer;
+    height: 72px;
+    width: 156px;
+    text-align: center;
+    
+   }
+input {
+    margin : 6px auto;
+    padding : 24px 48px;
+    background-color : #403e3e;
+    text-emphasis-color : white;
+    border : 8px groove rgb(185, 83, 185);
+    border-radius : 24px;
+    cursor : text;
+    height: 54px;
+    width: 648px;
+    display : block;
+    text-align: center;
+    border-style : solid;
+    
+}
+div {
+    text-align : center;
+    margin-top : 6px auto;
+    color: rgb(185, 83, 185);
+    font-size : 24px;
+    font-family : Arial, sans-serif;
+    font-weight : bold;
+    text-shadow : 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue;
+}
+label {
+    color: rgb(185, 83, 185);
+    font-size : 28px;
+    font-family : Arial, sans-serif;
+    font-weight : bold;
+    text-shadow : 1.5px 1.5px 3px black, 0 0 37.5px purple, 0 0 7.5px darkblue;
+    text-align: center;
+    display: block;
+}
+input.text {
+    font-size : 24px;
+    font-family : Arial, sans-serif;
+    font-weight : bold;
+    text-shadow : 1px 1px 2px black, 0 0 25px purple, 0 0 5px darkblue;
+    letter-spacing : 2px;
+    text-align: auto;
+    width: 600px;
+    border-style : solid;
+    border-color : rgb(185, 83, 185);
+    border-width : 4px;
+    background-color : #403e3e;
+    color : rgb(185, 83, 185);
+}
